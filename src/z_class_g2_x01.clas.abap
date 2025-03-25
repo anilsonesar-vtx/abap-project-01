@@ -16,6 +16,10 @@ CLASS z_class_g2_x01 IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
-  out->write( 'Hello World!' ).
+    out->write( 'Hello World!' ).
+***
+    out->write( 'Hello World! - Another change' ).
+
+
   ENDMETHOD.
 ENDCLASS.
