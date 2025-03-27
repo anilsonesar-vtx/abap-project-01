@@ -19,6 +19,8 @@ CLASS z_class_g2_x01 IMPLEMENTATION.
     out->write( 'Hello World!' ).
 ***
     out->write( 'Hello World! - Another change' ).
+***
+    out->write( 'Hello World! - Another change Part 2 ' ).
 
 
   ENDMETHOD.
