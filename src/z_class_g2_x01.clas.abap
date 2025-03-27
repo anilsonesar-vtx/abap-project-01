@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS z_class_g2_x01 IMPLEMENTATION.
+CLASS Z_CLASS_G2_X01 IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
@@ -50,7 +50,9 @@ CLASS z_class_g2_x01 IMPLEMENTATION.
 
     DATA(lwa_material_data) = lt_material_data[ mtrct = 'A1' ].
 
-    DATA(lwa_material_data_02) = lt_material_data[ mtrct = 'A33' ].
+    DATA(lwa_material_data_02) = lt_material_data[ mtrct = 'A39' ].
+
+    CLEAR: lt_material_data.
 
 
   ENDMETHOD.
