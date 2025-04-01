@@ -20,5 +20,9 @@ CLASS Z_CLASS_G2_X02 IMPLEMENTATION.
 
   out->write( 'Hello World from Z_CLASS_X02 - Another Change' ).
   out->write( 'Hello World from Z_CLASS_X02 - Another Change2' ).
+
+  out->write( 'Hello World from Z_CLASS_X02 - Third Change' ).
+  out->write( 'Hello World from Z_CLASS_X02 - Fourth Change' ).
+
   ENDMETHOD.
 ENDCLASS.
