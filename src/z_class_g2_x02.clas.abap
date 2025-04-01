@@ -12,10 +12,12 @@ ENDCLASS.
 
 
 
-CLASS z_class_g2_x02 IMPLEMENTATION.
+CLASS Z_CLASS_G2_X02 IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
   out->write( 'Hello World from Z_CLASS_X02' ).
+
+  out->write( 'Hello World from Z_CLASS_X02 - Another Change' ).
   ENDMETHOD.
 ENDCLASS.
