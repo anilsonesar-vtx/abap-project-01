@@ -56,6 +56,8 @@ CLASS Z_CLASS_G2_X01 IMPLEMENTATION.
 
     CLEAR: lwa_material_data_02, lt_material_data.
 
+    CLEAR: lwa_material_data_02, lt_material_data.
+
 
   ENDMETHOD.
 ENDCLASS.
