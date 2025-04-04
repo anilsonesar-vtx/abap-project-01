@@ -25,5 +25,6 @@ It's based on ABAP Language in SAP, but with some modifications to address speci
     * Ensure that the WHERE clause is not placed last in the SELECT query, and the INTO clause should be positioned at the end.
     * Ensure that the new ABAP syntax is followed for better readability and compatibility with modern standards.
     * Ensure that inline READ statements include the OPTIONAL keyword where applicable to prevent runtime errors when a key is not found.
+    * Ensure Global Variables are cleared in the code.
 
   
