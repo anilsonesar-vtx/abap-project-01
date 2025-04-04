@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Dummy Example 01</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZDM_EX_01F0D</SOBJ_NAME>
+    <SOBJ_NAME>LZDM_EX_01TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZDM_EX_01</SOBJ_NAME>
+   </INCLUDES>
+  </asx:values>
+ </asx:abap>
+</abapGit>
