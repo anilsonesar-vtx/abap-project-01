@@ -46,7 +46,8 @@ CLASS zcl_amdp_class IMPLEMENTATION.
                          INNER JOIN "/VGM/VD0AIN" AS MIN ON ( HD.MTRNR = MIN.MTRNR )
                          INNER JOIN "/VGM/VD0ADS" AS DS ON ( HD.MTRNR = DS.MTRNR )
                    WHERE HD.MANDT = :LV_MANDT
-                     AND HD.MTRNR = DS.MTRNR;
+                     AND HD.MTRNR = DS.MTRNR
+                     AND HD.MANDT = DS.MANDT;
 
   ENDMETHOD.
 ENDCLASS.
