@@ -1,9 +1,12 @@
 CLASS z_class_g2_x02 DEFINITION
   PUBLIC
+
   FINAL
   CREATE PUBLIC .
 
   PUBLIC SECTION.
+
+    CLASS-DATA: ms_variable_01 TYPE string.
 
     INTERFACES if_oo_adt_classrun .
   PROTECTED SECTION.
@@ -36,6 +39,8 @@ CLASS Z_CLASS_G2_X02 IMPLEMENTATION.
     ENDLOOP.
 
     <lv_var> = 1.
+
+    ms_variable_01 = 'Hello World'.
 
   ENDMETHOD.
 ENDCLASS.
