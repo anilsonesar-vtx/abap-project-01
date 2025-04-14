@@ -2,4 +2,4 @@
 # general options
 persistent_comment=true
 final_update_message = true
-extra_instructions = ""
+extra_instructions = "Raise an error if proper commenting is not done."
