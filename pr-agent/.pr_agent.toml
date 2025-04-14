@@ -1,0 +1,5 @@
+[pr_reviewer] # /review #
+# general options
+persistent_comment=true
+final_update_message = true
+extra_instructions = ""
