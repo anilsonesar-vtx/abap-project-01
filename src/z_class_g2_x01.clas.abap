@@ -52,6 +52,8 @@ CLASS Z_CLASS_G2_X01 IMPLEMENTATION.
 
     DATA(lwa_material_data_02) = lt_material_data[ mtrct = 'A39' ].
 
+    DATA(lwa_material_data_03) = lt_material_data[ mtrct = 'A09' ].
+
     CLEAR: lwa_material_data_02.
 
     CLEAR: lt_material_data.
