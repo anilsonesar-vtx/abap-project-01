@@ -5,6 +5,29 @@
    <MASTER_LANGUAGE>E</MASTER_LANGUAGE>
    <STARTING_FOLDER>/src/</STARTING_FOLDER>
    <FOLDER_LOGIC>PREFIX</FOLDER_LOGIC>
+   <IGNORE>
+    <item>/src/z_class_g2_x01.clas.abap</item>
+    <item>/src/z_class_g2_x01.clas.xml</item>
+    <item>/src/z_class_g2_x02.clas.abap</item>
+    <item>/src/z_class_g2_x02.clas.xml</item>
+    <item>/src/zas_dummy_example_01.prog.abap</item>
+    <item>/src/zas_dummy_example_01.prog.xml</item>
+    <item>/src/zas_pr_01.prog.abap</item>
+    <item>/src/zas_pr_01.prog.xml</item>
+    <item>/src/zcl_amdp_class.clas.abap</item>
+    <item>/src/zcl_amdp_class.clas.xml</item>
+    <item>/src/zdm_char10.doma.xml</item>
+    <item>/src/zdm_char10.dtel.xml</item>
+    <item>/src/zdm_ex_01.fugr.lzdm_ex_01f0d.abap</item>
+    <item>/src/zdm_ex_01.fugr.lzdm_ex_01f0d.xml</item>
+    <item>/src/zdm_ex_01.fugr.lzdm_ex_01top.abap</item>
+    <item>/src/zdm_ex_01.fugr.lzdm_ex_01top.xml</item>
+    <item>/src/zdm_ex_01.fugr.saplzdm_ex_01.abap</item>
+    <item>/src/zdm_ex_01.fugr.saplzdm_ex_01.xml</item>
+    <item>/src/zdm_ex_01.fugr.xml</item>
+    <item>/src/ztt_vgm_vdd1rphd.ttyp.xml</item>
+    <item>/src/zvgm_vdd1rphd.tabl.xml</item>
+   </IGNORE>
   </DATA>
  </asx:values>
 </asx:abap>
